@@ -1,0 +1,21 @@
+@charset "utf-8";
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block}
+html,body,fieldset,img,iframe,abbr{border:0}input{outline:0}body{font-size:12px;font-family:Arial,Helvetica,sans-serif}html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}.con{text-align:center}ul,li,ol{list-style:none}img{border:0}a{text-decoration:none}body{font-size:12px}html{font-family:Arial}.f10{font-size:10px}.f12{font-size:12px!important}.f14{font-size:14px}.f16{font-size:16px}.f24{font-size:24px;font-family:Arial,"Microsoft Yahei",Simsun}.input,textarea,select{padding:5px;font-size:100%;line-height:18px;border:1px solid #d8d8d8;border-color:silver #e1e1e1 #e1e1e1 silver;background-color:#fff;vertical-align:middle;margin:0;font-family:inherit}.input:focus,textarea:focus{outline:1px solid #99d8f5;border-color:#7bbff2;background-color:#fffbde;color:#333}.input_hd,.textarea_hd{background:#fff url(../images/input_hd.png) 0 bottom repeat-x}.input{height:18px}input.radio,input[type=radio],input.checkbox,input[type=checkbox]{vertical-align:-3px;padding:0;margin-right:3px;*marign-rignt:0}textarea{height:72px;overflow:auto;vertical-align:top;resize:vertical}select,input[type=file]{height:28px;line-height:28px}select[size]{height:auto}
+html,body{ background: url(../images/loginbackground.jpg) repeat ; font-family:"微软雅黑";color:#fff;}
+
+a:link, a:visited{color:#fff;}
+a:hover{color:#eee;}
+
+
+
+.loginMain{ height:500px; width:350px; margin:0 auto; margin-top:100px; background:#fff;}
+.loginBoxTitle{background:#0190d4 url('../images/logo.jpg') no-repeat 50px center; height:60px; line-height:60px; font-size:24px; padding-left:200px;  }
+.loginBox{width:295px; margin-left:30px;}
+.input-item{ margin:20px 0px;}
+.login-input-text, .login-input-button{border:1px solid #ececec; border-radius: 5px; height:45px; line-height:45px; width:275px; color:#ababab; padding: 0 0 0 20px}
+.login-input-text:focus{border:1px solid #0190d4;color:#666;}
+.login-input-button{background:#0190d4; padding:0px; text-align:center; font-size:18px;color:#fff; cursor:pointer;}
+#VerifyImg{border:1px solid #ececec; cursor:pointer;}
+
+
+.loginBoxFooter{background:#4f5f6f;height:60px; line-height:60px; text-align:center;}
