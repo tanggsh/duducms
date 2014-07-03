@@ -1,0 +1,134 @@
+@charset "utf-8";
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block}html,body,fieldset,img,iframe,abbr{border:0}input{outline:0}body{font-size:12px;font-family:Arial,Helvetica,sans-serif}html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}.con{text-align:center}ul,li,ol{list-style:none}img{border:0}a{text-decoration:none}body{font-size:12px}html{font-family:Arial}.f10{font-size:10px}.f12{font-size:12px!important}.f14{font-size:14px}.f16{font-size:16px}.f24{font-size:24px;font-family:Arial,"Microsoft Yahei",Simsun}.input,textarea,select{padding:5px;font-size:100%;line-height:18px;border:1px solid #d8d8d8;border-color:silver #e1e1e1 #e1e1e1 silver;background-color:#fff;vertical-align:middle;margin:0;font-family:inherit}.input:focus,textarea:focus{outline:1px solid #99d8f5;border-color:#7bbff2;background-color:#fffbde;color:#333}.input_hd,.textarea_hd{background:#fff url(../images/input_hd.png) 0 bottom repeat-x}.input{height:18px}input.radio,input[type=radio],input.checkbox,input[type=checkbox]{vertical-align:-3px;padding:0;margin-right:3px;*marign-rignt:0}textarea{height:72px;overflow:auto;vertical-align:top;resize:vertical}select,input[type=file]{height:28px;line-height:28px}select[size]{height:auto}
+html,body{height: 100%; font-family:"微软雅黑"}
+
+a:link, a:visited{color:#3A6EA5;}
+a:hover{color:#444;}
+
+.color_yellow{color:#f19a0d;}
+.color_blue{color:#68b3eb;}
+.text-right{text-align:right;}
+.f_l{float:left;}
+.f_r{float:right;}
+.clear{clear:both;}
+.hr { background: url("../images/uline.gif") repeat-x scroll center center; padding:5px 0;}
+.hr hr {display: none;}
+.h5{height:5px;}
+.h10{height:10px;}
+.h20{height:20px;}
+.h50{height:50px;}
+.h100{height:100px;}
+
+
+/*按钮部分*/
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}.btn{color:#333;background:#e6e6e6 ;border:1px solid #c4c4c4;border-radius:2px;text-shadow:0 1px 1px rgba(255,255,255,.75);padding:4px 10px;display:inline-block;cursor:pointer;font-size:100%;line-height:normal;text-decoration:none;overflow:visible;vertical-align:middle;text-align:center;zoom:1;white-space:nowrap;font-family:inherit;_position:relative;margin:0}a.btn{*padding:5px 10px 2px!important}input.btn,button.btn{*padding:4px 10px 1px!important}.btn em{font-size:10px;font-style:normal;padding-left:2px;font-family:Arial;vertical-align:1px}.btn .add{width:9px;height:9px;background:url(../images/btn_add.png) center center no-repeat;display:inline-block;vertical-align:middle;margin:-3px 5px 0 -3px;line-height:9px}.btn:hover{background-position:0 -40px;color:#333;text-decoration:none}.btn:active{background-position:0 -81px}.btn_big{font-size:1.2em;line-height:normal;padding:7px 18px;border-radius:2px}input.btn_big,button.btn_big{*padding:6px 18px 3px!important}.btn_error,.btn_error:hover,.btn_success,.btn_success:hover,.btn_submit,.btn_submit:hover{color:#fff!important}.btn_submit{background-position:0 -120px;background-color:#1b75b6;text-shadow:0 -1px 0 rgba(0,0,0,.25);border-color:#106bab #106bab #0d68a9}.btn_submit:hover{background-position:0 -160px}.btn_submit:active{background-position:0 -201px}.btn_success{background-color:#89bf00;background-position:0 -240px;text-shadow:0 -1px 0 rgba(0,0,0,.25);border-color:#6bad01 #6bad01 #63a100}.btn_success:hover{background-position:0 -280px}.btn_success:active{background-position:0 -321px}.btn_error{background-color:#f29307;background-position:0 -360px;text-shadow:0 -1px 0 rgba(0,0,0,.25);border-color:#e77c0e #e77c0e #dd7204}.btn_error:hover{background-position:0 -400px}.btn_error:active{background-position:0 -441px}
+input.disabled,input.disabled:hover,textarea.disabled,textarea.disabled:hover,select.disabled,button.disabled,button.disabled:hover{border-color:#ccc!important;background:#e9e9e9!important;box-shadow:none!important;color:#999!important;cursor:not-allowed;text-shadow:1px 1px 0 #fff!important}.insubit{margin-top:15px;float:right;margin-right:15px}
+
+#adminIndex_head,#adminIndex_left,#adminIndex_main,#adminIndex_foot,#iframe{ position:absolute; left:0;}
+#adminIndex_head{ height:60px; width:100%; background:#0190d4 ; top:0; z-index:99}
+#adminIndex_head .logo{ float:left; width:200px; height:60px; background: url(../images/logo.jpg) no-repeat center top;}
+#adminIndex_left{ width:200px; background:#eaeaea ;top:60px;bottom:0px;overflow:auto; z-index:50}
+#adminIndex_left .nav{ margin-top:10px;}
+#adminIndex_left .nav li a{ display:block; margin-bottom:5px; width:162px; height:29px; line-height:29px; text-indent:25px;color:#666;}
+#adminIndex_left .nav li a:hover{color:#36F;}
+#adminIndex_left .nav .curr a{background: url(../images/nav.png) repeat-x; color:#fff;}
+#adminIndex_left .nav .curr a:hover{ color:#fff;}
+#adminIndex_left .nav i{font-style: normal; font-family: "Courier New", Courier, monospace;font-size:13px; padding-right:10px;}
+.topUserinfo{position:absolute; top:5px; right:10px; z-index:100;line-height:22px; color:#fff; text-align:right; font-size:14px;}
+.topUserinfo a{color:#fff; display:inline-block; padding:0px 2px;}
+.topUserinfo a:hover{color:#fff;}
+
+
+
+
+#runtime{font-family: Verdana, Geneva, sans-serif; color:#999; text-align:center; margin:15px auto}
+
+.menu{ height:60px; line-height:60px; font-size:13px; display:inline-block; }
+.menu ul#topMenuList{height:60px; line-height:60px;  }
+.menu ul#topMenuList li{ float:left; padding:0 15px; margin:0px 1px; height:60px;}
+.menu ul#topMenuList li.curr,.menu ul#topMenuList li.hovers{ background:#01699b url(../images/menu_bg.jpg) no-repeat center bottom;}
+.menu a{ color:#fff; font-size:18px;}
+.menu a:hover{ color:#FFF;}
+.menu ul#topMenuList li.curr a, .menu ul#topMenuList li.curr a:hover,.menu ul#topMenuList li.hovers a, .menu ul#topMenuList li.hovers a:hover{ color:#fff;}
+.ihead{ height:30px; line-height:30px; font-family: "Courier New", Courier, monospace; border-bottom:2px #dedede solid; font-size:14px; font-weight:bold; padding-left:10px; margin-bottom:15px;}
+#loading{ display:none; background:#000 url(../images/load.gif) no-repeat center; opacity:0.3; position: absolute; width:100%; height:100%; z-index:999;}
+
+
+
+#adminIndex_main{top:60px;bottom:0px;_height:100%;overflow:auto; overflow-y: hidden;left: 200px;right:0; margin-bottom:28px;}
+.main{width:100%; height:100%; overflow: auto; overflow-x: hidden; border: none;}
+.main .head{ max-height:105px; overflow:hidden; background:#f5f5f5; border-bottom:1px #f1f1f1 solid; margin-bottom:10px;}
+.main .head .tool{ padding:10px 20px;}
+.main .head .tool h3{ font-family:Microsoft yahei; color:#3e506a; font-size:17px;}
+.main .head .tool li{ line-height:35px; color:#7a8192;}
+.main .head .tool li i{ margin-right:12px; margin-left:12px;}
+
+
+
+
+#adminIndex_foot{ width: 100%;bottom:0px; z-index:50; padding:3px 10px; text-align:center; background: #2b2f3e; border-top:1px solid #ddd;border-bottom:1px solid #ddd;color:#fff;}
+#adminIndex_foot a{color:#fff;}
+
+/*内容页面-列表*/
+body.AdminContent{padding:20px;}
+
+
+
+
+
+
+
+
+
+
+/* 简易数据表格-格边框 */
+.m-table{table-layout:fixed;width:100%;line-height:1.5; font-family:"Courier New", Courier, monospace}
+.m-table th,.m-table td{padding:5px 10px;border:1px solid #eee;}
+.m-table thead tr{ border:1px solid #eee; border-left:0; border-right:0; font-weight:bold; background:#f6f6f6;}
+.m-table th{font-weight:bold;}
+.m-table tbody tr:nth-child(2n){background:#fafafa;}
+/*.m-table tbody tr:hover{background:#F3F3F3;}*/
+.m-table input{ color:#333; margin-right:15px; }
+.m-table .cola{width:100px;}
+.m-table .colb{width:200px;}
+.m-table .colc{width:200px;}
+/* 简易数据表格-行边框*/
+.m-table-row th,.m-table-row td{border-width:0 0 1px;}
+.m-table span{ color:#888;}
+.m-table a{ color:#333;}.m-table a:hover{ color:#f30; text-decoration:underline; }
+
+/*!
+ * jQuery UI Dialog 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/dialog/#theming
+ */
+.ui-dialog {	overflow: hidden;	position: absolute;	top: 0;	left: 0;	padding: .2em;	outline: 0;}
+.ui-dialog .ui-dialog-titlebar {	padding: .4em 1em;	position: relative;}
+.ui-dialog .ui-dialog-title {	float: left;	margin: .1em 0;	white-space: nowrap;	width: 90%;	overflow: hidden;	text-overflow: ellipsis;}
+.ui-dialog .ui-dialog-titlebar-close {	position: absolute;	right: .3em;	top: 50%;	width: 20px;	margin: -10px 0 0 0;	padding: 1px;	height: 20px;}
+.ui-dialog .ui-dialog-content {	position: relative;	border: 0;	padding: .5em 1em;	background: none;	overflow: auto;}
+.ui-dialog .ui-dialog-buttonpane {	text-align: left;	border-width: 1px 0 0 0;	background-image: none;	margin-top: .5em;	padding: .3em 1em .5em .4em;}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {	float: right;}
+.ui-dialog .ui-dialog-buttonpane button {	margin: .5em .4em .5em 0;	cursor: pointer;}
+.ui-dialog .ui-resizable-se {	width: 12px;	height: 12px;	right: -5px;	bottom: -5px;	background-position: 16px 16px;}
+.ui-draggable .ui-dialog-titlebar {	cursor: move;}
+.ui-widget-header {    background: url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCCCCC;    border: 1px solid #AAAAAA;   color: #222222;    font-weight: bold;}
+
+
+
+
+/*欢迎页*/
+.textBox{ margin:10px 0 0 10px; border:1px solid #C7D8EA}
+.textBoxTitle{ background: url("../images/x_bg.png") repeat-x scroll left -42px; border-bottom: 1px solid #C7D8EA;color: #3A6EA5;height: 30px;line-height: 30px;padding: 0 10px; font-size:14px;}
+.textBoxContent{ padding: 15px; color:#666; line-height:20px;}
+
+
+
+
+
+
