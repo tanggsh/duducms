@@ -9,6 +9,7 @@
 
 <script type="text/javascript" src="Js/jQueryUi_1_10_4/jquery-1.10.2.min.js?{.base_version}"></script>
 <script type="text/javascript" src="Js/MenuData.js?{.base_version}"></script>
+
 <style>
 html, body { width: 100%; height: 100%; overflow-x: hidden; margin: 0; }
 html {_height:auto; _padding: 76px 0 0 0px; }
@@ -37,7 +38,7 @@ html {_height:auto; _padding: 76px 0 0 0px; }
 <div id="adminIndex_left">
 	<div class="nav" id="subNav">
     	<ul>
-        	<li class="curr"><a href="javascript:void(0);"><i>⊙</i>管理首页</a></li>
+        	<li class="curr"><a href="javascript:void(0);">管理首页</a></li>
     		
         </ul>
     </div>
@@ -97,7 +98,7 @@ function setFormatNavData(data){
 		
 	for(var j=0 ; j< subNavObj.length ; j++ ){
 		subNavClass = (j == 0) ? " class='curr' " : "" ;
-		subNavHtml += "<li"+subNavClass+"><a href=\"javascript:void(0);\" rel=\""+subNavObj[j].url+"\" ><i>⊙</i>"+subNavObj[j].title+"</a></li>";
+		subNavHtml += "<li"+subNavClass+"><a href=\"javascript:void(0);\" rel=\""+subNavObj[j].url+"\" >"+subNavObj[j].title+"</a></li>";
 	}
 		
 	subNavHtml += "</ul>";
